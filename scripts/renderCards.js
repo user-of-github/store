@@ -3,7 +3,7 @@ const renderCards = (data) => {
     data.forEach(good => {
         let optionsString = ''
         for (let counter = 0; counter < good.options.length; counter++)
-            optionsString += `<button class="card__choose-option" ${good.options[counter].available === true ? '' : 'disabled'} data-id="${good.options[counter].id}">${good.options[counter].value} | $${good.options[counter].price}</button>`
+            optionsString += `<button class="card__choose-option" ${good.options[counter].available === true ? '' : 'disabled'} data-id="${good.options[counter].id}">${good.options[counter].value}</button>`
 
         const newHTMLcard = `
                     <div class="containerCard">

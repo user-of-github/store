@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Smartphones",
+        "image": "./images/smartphone.png",
+        "type": "smartphone"
+    },
+    {
+        "title": "Laptops",
+        "image": "./images/laptop.png",
+        "type": "laptop"
+    },
+    {
+        "title": "Headphones",
+        "image": "./images/headphone.png",
+        "type": "headphone"
+    },
+    {
+        "title": "Laptops",
+        "image": "./images/laptop.png",
+        "type": "laptop"
+    },
+    {
+        "title": "Headphones",
+        "image": "./images/headphone.png",
+        "type": "headphone"
+    }
+]

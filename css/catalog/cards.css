@@ -110,6 +110,8 @@
     -webkit-transition: 0.75s all;
     -o-transition: 0.75s all;
     transition: 0.75s all;
+    
+    padding: 5px;
 }
 
 .circle {
@@ -136,8 +138,9 @@
 }
 
 .card__subtitle {
-
-    padding: 2rem 0rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 20px;
     color: #585858;
 }
 
