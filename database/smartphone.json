@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Google Pixel 3a",
+        "subtitle": "The phone that gets it down",
+        "options": [{
+            "value": "64GB",
+            "available": true,
+            "id": "88801018",
+            "price": 429
+        }, {
+            "value": "128GB",
+            "available": false,
+            "id": "8dsf888",
+            "price": 479
+        }],
+        "image": "./images/catalog/smartphone/pixel3a.png"
+    },
+    {
+        "title": "Huawei P40 Pro",
+        "subtitle": "Visionary photography",
+        "options": [{
+            "value": "128GB",
+            "available": false,
+            "id": "gtgttg",
+            "price": 899
+        }, {
+            "value": "256GB",
+            "available": true,
+            "id": "lllllll",
+            "price": 919
+        }],
+        "image": "./images/catalog/smartphone/p40pro.png",
+        "price": 699
+    }
+]
