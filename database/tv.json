@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Google Pixel 3a",
+        "subtitle": "The phone that gets it down.",
+        "options": [{
+            "value": "64GB",
+            "available": true,
+            "id": "88801018",
+            "price": 429
+        }, {
+            "value": "128GB",
+            "available": false,
+            "id": "8dsf888",
+            "price": 479
+        }],
+        "image": "./images/catalog/smartphone/pixel3a.png"
+    },
+    {
+        "title": "Huawei P40 Pro",
+        "subtitle": "Visionary photography.",
+        "options": [{
+            "value": "128GB",
+            "available": false,
+            "id": "gtgttg",
+            "price": 899
+        }, {
+            "value": "256GB",
+            "available": true,
+            "id": "lllllll",
+            "price": 919
+        }],
+        "image": "./images/catalog/smartphone/p40pro.png"
+    },
+    {
+        "title": "Apple iPhone 12",
+        "subtitle": "Blast past fast.",
+        "options": [{
+            "value": "64GB",
+            "available": true,
+            "id": "tujyuj",
+            "price": 799
+        }, {
+            "value": "128GB",
+            "available": false,
+            "id": "ipjone228",
+            "price": 849
+        }, {
+            "value": "256GB",
+            "available": true,
+            "id": "iphonelol228",
+            "price": 949
+        }],
+        "image": "./images/catalog/smartphone/iphone12.png"
+    },
+    {
+        "title": "Honor 30",
+        "subtitle": "Inspired By Light, Designed For You.",
+        "options": [{
+            "value": "128GB",
+            "available": true,
+            "id": "honorloh",
+            "price": 450
+        }, {
+            "value": "256GB",
+            "available": true,
+            "id": "userofhonor",
+            "price": 517
+        }],
+        "image": "./images/catalog/smartphone/honor30.png"
+    }
+]

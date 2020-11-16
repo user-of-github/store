@@ -6,7 +6,6 @@ const renderCards = (data) => {
             optionsString += `<button class="card__choose-option" ${good.options[counter].available === true ? '' : 'disabled'} data-id="${good.options[counter].id}">${good.options[counter].value}</button>`
 
         const newHTMLcard = `
-                    <div class="containerCard">
                                 <div class="card">
                                     <div class="card__picture">
                                         <div class="circle"></div>     
@@ -25,7 +24,6 @@ const renderCards = (data) => {
                                         </div>
                                     </div>
                                 </div>
-        </div>
                             `
 
         wrapper.insertAdjacentHTML('beforeend', newHTMLcard)

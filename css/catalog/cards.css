@@ -1,6 +1,4 @@
 .wrapper {
-    min-height: 100vh;
-
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -21,34 +19,10 @@
     width: 100%;
 }
 
-.containerCard {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-
-    -ms-align-items: center;
-    align-items: center;
-
-    justify-content: center;
-    margin: auto;
-
-    padding: 50px;
-
-    padding: 15px;
-    flex: 0 0 calc(25% - 30px);
-    min-width: 300px;
-}
 
 .card {
-    position: relative;
-    overflow: hidden;
-
     border-radius: 10px;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     padding-bottom: 10px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -66,9 +40,21 @@
     flex-direction: column;
 
     justify-content: center;
+
     -ms-align-items: center;
     align-items: center;
+    text-align: center;
+
     margin: auto;
+    margin-bottom: 30px;
+
+    text-transform: none;
+
+    text-decoration: none;
+
+    padding: 20px;
+    flex-basis: 28%;
+    flex-shrink: 0;
 }
 
 .card__picture img {
@@ -110,7 +96,7 @@
     -webkit-transition: 0.75s all;
     -o-transition: 0.75s all;
     transition: 0.75s all;
-    
+
     padding: 5px;
 }
 
@@ -221,13 +207,13 @@
     -webkit-transition: 0.2s all;
     -o-transition: 0.2s all;
     transition: 0.2s all;
-    
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    
+
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
@@ -241,4 +227,18 @@
 
 .card__purchase-btn:active {
     transform: scale(0.95);
+}
+
+@media (max-width: 992px)
+{
+    .card{
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 576px)
+{
+    .card{
+        flex-basis: 100%;
+    }
 }

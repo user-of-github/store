@@ -1,27 +1,29 @@
+
+
 .wrapper{
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    -o-flex-direction: row;
-    flex-direction: row;
-    
+
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
     
-    width: 100%;
-    
-    margin: auto;
+    height: 100%;
     
     padding: 20px 0;
+    
+    -ms-align-items: center;
+    align-items: center;
+    
+    justify-content: center;
 }
 .card{
     display: -webkit-flex;
@@ -49,7 +51,7 @@
     
     text-decoration: none;
     
-    padding: 10px;
+    padding: 20px;
     
     cursor: pointer;
     
@@ -71,7 +73,6 @@
 
 .card__title{
     width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
     color: #333;
     font-size: 2.5rem;
     font-weight: 400;

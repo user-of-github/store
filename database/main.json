@@ -1,11 +1,11 @@
 [
     {
-        "title": "Smartphones",
+        "title": "Smartphone",
         "image": "./images/smartphone.png",
         "type": "smartphone"
     },
     {
-        "title": "Laptops",
+        "title": "Laptop",
         "image": "./images/laptop.png",
         "type": "laptop"
     },
@@ -15,13 +15,13 @@
         "type": "headphone"
     },
     {
-        "title": "Laptops",
-        "image": "./images/laptop.png",
-        "type": "laptop"
+        "title": "Smartwatch",
+        "image": "./images/watch.png",
+        "type": "watch"
     },
     {
-        "title": "Headphones",
-        "image": "./images/headphone.png",
-        "type": "headphone"
+        "title": "Smart TV",
+        "image": "./images/tv.png",
+        "type": "tv"
     }
 ]
