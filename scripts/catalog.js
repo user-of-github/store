@@ -35,7 +35,7 @@ const init = () => {
     Application.addEventListener('click', initializeBuyButtons)
 
     let timer = window.setTimeout(check = () => {
-        if (Array.from(Application.querySelectorAll('.containerCard')).length === 0)
+        if (Array.from(Application.querySelectorAll('.card')).length === 0)
             timer = setTimeout(check, 1)
         else {
             initAnimations()

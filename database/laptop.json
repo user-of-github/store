@@ -3,17 +3,17 @@
         "title": "Asus TUF Gaming",
         "subtitle": "Outlast the competition.",
         "options": [{
-            "value": "AMD Ryzen 5 4600H",
+            "value": "Ryzen 5 4600H",
             "available": true,
             "id": "tyhtyt111",
             "price": 900
         }, {
-            "value": "AMD Ryzen 7 4800H",
+            "value": "Ryzen 7 4800H",
             "available": true,
             "id": "8ds77788",
             "price": 1269
         }, {
-            "value": "AMD Ryzen 9 4900H",
+            "value": "Ryzen 9 4900H",
             "available": false,
             "id": "8ds77788",
             "price": "undefined"

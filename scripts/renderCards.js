@@ -18,9 +18,7 @@ const renderCards = (data) => {
                                     <div class="card__buy">
                                         <div class="card__buying-options">${optionsString}</div>
                                         <div class="card__purchase">
-                                            <button class="card__purchase-btn">
-                                                Add to cart
-                                            </button>
+                                            <button class="card__purchase-btn">Add to cart</button>
                                         </div>
                                     </div>
                                 </div>
