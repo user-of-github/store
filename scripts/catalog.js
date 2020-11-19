@@ -29,7 +29,7 @@ const init = () => {
     
     const Application = document.getElementById('app')
 
-    getData()
+    setData()
 
     Application.addEventListener('click', initializeChooseOptionButtons)
     Application.addEventListener('click', initializeBuyButtons)

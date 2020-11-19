@@ -1,26 +1,28 @@
 [
     {
-        "title": "Google Pixel 3a",
-        "subtitle": "The phone that gets it down.",
+        "title": "Huawei Mate 30",
+        "subtitle": "A new view of the possibilities.",
+        "description": "Android, 6.62'' OLED (1080x2340), HiSilicon Kirin 990, RAM 8GB / 6GB, ROM 128GB, nano-SD, camera 40 MP,  4200 mAh, 2 SIM",
         "options": [{
-            "value": "64GB",
+            "value": "6GB",
             "available": true,
-            "id": "88801018",
-            "price": 429
-        }, {
-            "value": "128GB",
-            "available": false,
             "id": "8dsf888",
-            "price": 479
+            "price": 550
+        }, {
+            "value": "8GB",
+            "available": true,
+            "id": "8ds99998",
+            "price": 770
         }],
-        "image": "./images/catalog/smartphone/pixel3a.png"
+        "image": "./images/catalog/smartphone/mate30.png"
     },
     {
         "title": "Huawei P40 Pro",
         "subtitle": "Visionary photography.",
+        "description": "Android, 6.5'' OLED (1200x2640), HiSilicon Kirin 990 5G, RAM 8 GB, ROM 128GB / 256GB, nano-SD, camera 50 MP, 4200 mAh, 2 SIM",
         "options": [{
             "value": "128GB",
-            "available": false,
+            "available": true,
             "id": "gtgttg",
             "price": 899
         }, {
@@ -32,29 +34,9 @@
         "image": "./images/catalog/smartphone/p40pro.png"
     },
     {
-        "title": "Apple iPhone 12",
-        "subtitle": "Blast past fast.",
-        "options": [{
-            "value": "64GB",
-            "available": true,
-            "id": "tujyuj",
-            "price": 799
-        }, {
-            "value": "128GB",
-            "available": false,
-            "id": "ipjone228",
-            "price": 849
-        }, {
-            "value": "256GB",
-            "available": true,
-            "id": "iphonelol228",
-            "price": 949
-        }],
-        "image": "./images/catalog/smartphone/iphone12.png"
-    },
-    {
         "title": "Honor 30",
         "subtitle": "Inspired By Light, Designed For You.",
+        "description": "Android, 6.53'' OLED (1080x2400), HiSilicon Kirin 985, RAM 8 GB, флэш-память 128GB / 256GB, nano-SD, camera 40 MP, 4000 mAh, 2 SIM",
         "options": [{
             "value": "128GB",
             "available": true,

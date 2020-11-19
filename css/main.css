@@ -1,4 +1,4 @@
-/* base settings */
+/* base application settings */
 * {
     font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
@@ -7,12 +7,14 @@
 }
 
 body {
-    padding-top: 15px;
-    overflow-x: hidden;
+    background-color: #FBFBFB;
+    padding-top: 20px;
 }
 
 html {
     font-size: 10px;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
 }
 
 button:focus {
@@ -20,10 +22,8 @@ button:focus {
 }
 
 .container {
-    max-width: 1320px;
-
+    max-width: 1200px;
     margin: auto;
-    text-align: center;
 
     display: -webkit-flex;
     display: -moz-flex;
@@ -31,16 +31,16 @@ button:focus {
     display: -o-flex;
     display: flex;
 
-    justify-content: center;
-
-    -ms-align-items: center;
-    align-items: center;
-
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     -o-flex-direction: column;
     flex-direction: column;
+
+    justify-content: center;
+
+    -ms-align-items: center;
+    align-items: center;
 }
 
 .row {
@@ -54,19 +54,24 @@ button:focus {
 
     -ms-align-items: center;
     align-items: center;
+
     justify-content: space-around;
+
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
-
 }
+
 
 /* styles for all the application*/
 
 .header {
+    width: 100%;
+    margin: auto;
     padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 .header__logo-link {
@@ -89,28 +94,19 @@ button:focus {
 
     text-align: center;
     text-decoration: none;
-
 }
 
 .header__logo {
-    width: 50px;
+    width: 40px;
     margin-right: 10px;
-}
-
-.header__cart svg {
-    display: block;
-    width: inherit;
-    height: inherit;
-    pointer-events: none;
-    background-color: #000;
 }
 
 .header__title {
     margin-right: auto;
     margin-left: 10px;
-    font-weight: 400;
-    font-size: 3rem;
-    color: #333;
+    font-weight: 300;
+    font-size: 2.2rem;
+    color: #000;
 }
 
 .header__cart {
@@ -145,7 +141,94 @@ button:focus {
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #f5f5f5 100%)
 }
 
+.promo {
+    width: 100%;
+    background-color: #FF4F3B;
+
+    padding: 53px 67px;
+    border-radius: 10px; 
+    background-image: url(../images/bgc.png);
+    background-position: center right 50px;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: 275px;
+    background-size: 275px;
+
+    color: white;
+}
+
+.promo__text {
+    text-align: left;
+    max-width: 550px;
+}
+
+.promo__title {
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 46px;
+}
+
+.promo__description {
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+}
+
+.main__heading {
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.main__title {
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+
+    color: #000000;
+    margin-right: auto;
+}
+
+.main__back{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+
+    background-color: #fff;
+
+    -webkit-transition: 0.2s all;
+    -o-transition: 0.2s all;
+    transition: 0.2s all;
+    
+    font-size: 1.8rem;
+}
+
+.main__back:hover {
+    background-color: #FF4F3B;
+    color: white;
+}
+.main__back:active {
+    transform: scale(0.95);
+}
 .wrapper {
+    width: 100%;
+    
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -163,58 +246,8 @@ button:focus {
 
     -ms-align-items: center;
     align-items: center;
-    width: 100%;
 
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.promo {
-    width: 100%;
-    margin: auto;
-    padding: 50px;
-    border-radius: 10px;
-
-    background-color: #FF4F3B;
-
-    color: white;
-
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -o-flex-direction: column;
-    flex-direction: column;
-
-    background-image: url(../images/bgc.png);
-    background-size: 270px;
-    background-position: right 30px center;
-    background-repeat: no-repeat;
-}
-
-.promo__title {
-    font-size: 4rem;
-    text-align: left;
-    margin-right: auto;
-    line-height: 4.5rem;
-    font-weight: 900;
-    max-width: 70%;
-    margin-bottom: 20px;
-}
-
-.promo__text {
-    margin-top: 10px;
-    font-size: 2.2rem;
-    text-align: left;
-    margin-right: auto;
-    line-height: 2.8rem;
-    font-weight: 300;
-    max-width: 550px;
+    padding: 10px 0;
 }
 
 .footer {
@@ -241,6 +274,13 @@ button:focus {
     text-align: center;
 }
 
+img {
+    fill: red;
+}
+.footer .header__title{
+    color: white;
+}
+
 /* adaptive */
 
 @media (max-width: 1400px) {
@@ -265,11 +305,40 @@ button:focus {
     .container {
         max-width: 720px;
     }
+
+    .promo {
+        background-position: center right;
+        padding: 30px 40px;
+        -webkit-background-size: 200px;
+        background-size: 200px;
+    }
+
+    .promo__text {
+        max-width: 400px;
+    }
+
+    .promo__title {
+        font-size: 3rem;
+    }
+
+    .promo__description {
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+
+    .promo__text {
+        max-width: 350px;
+    }
+
+    .promo {
+        background-position: center right;
+        -webkit-background-size: 200px;
+        background-size: 200px;
     }
 }
 
@@ -282,9 +351,14 @@ button:focus {
         background-size: 250px;
         background-position: right 10px center;
     }
-    .promo__title{
-        font-size: 3rem;
+
+    .promo {
+        padding: 20px 30px;
+        -webkit-background-size: 150px;
+        background-size: 150px;
     }
-    .promo__text{
-        max-width: 200px;
+
+    .promo__text {
+        max-width: 250px;
     }
+}

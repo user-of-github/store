@@ -1,5 +1,6 @@
 const renderCards = (data) => {
     const wrapper = document.getElementById('app')
+    document.querySelector('.promo').style.backgroundImage = 'url(' + data[Math.floor(Math.random() * (data.length))].image + ')';
     data.forEach(good => {
         let optionsString = ''
         for (let counter = 0; counter < good.options.length; counter++)
@@ -13,7 +14,8 @@ const renderCards = (data) => {
                                     </div>
                                     <div class="card__info">
                                         <h2 class="card__title">${good.title}</h2>
-                                        <h3 class="card__subtitle">${good.subtitle}</h3>
+                                        <h3 class="card__subtitle">«${good.subtitle}»</h3>
+                                        <p class="card__characteristics">${good.description}</p>
                                     </div>
                                     <div class="card__buy">
                                         <div class="card__buying-options">${optionsString}</div>

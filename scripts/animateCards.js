@@ -1,7 +1,7 @@
 const initAnimations = () => {
     const cards = document.querySelectorAll('.card')
-    const SCALE_CIRCLE = 5 // увеличение круга
-    const SCALE_IMAGE = 1.1
+    const SCALE_CIRCLE = 2 // увеличение круга
+    const SCALE_IMAGE = 1.2
 
     cards.forEach(card => {
         const titleCard = card.querySelector('.card__title'),
@@ -9,13 +9,10 @@ const initAnimations = () => {
             imgCard = card.querySelector('.card__picture img'),
             cardBuyBlock = card.querySelector('.card__buy'),
             cardCircle = card.querySelector('.circle')
-
-        card.addEventListener('mouseenter', event => {
-            card.style.transition = 'none'
-        })
+        
         card.addEventListener('mousemove', event => {
             cardCircle.style.transform = `scale(${SCALE_CIRCLE})`
-            imgCard.style.transform = `rotateZ(15deg) scale(${SCALE_IMAGE})`
+            imgCard.style.transform = `rotateZ(7deg) scale(${SCALE_IMAGE})`
         })
 
         card.addEventListener('mouseleave', event => {

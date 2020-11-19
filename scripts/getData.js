@@ -1,3 +1,11 @@
+const ACCORDANCES = {
+    'smartphone': 'Smartphones',
+    'laptop': 'Laptops',
+    'headphone': 'Headphones',
+    'watch': 'Smartwatches',
+    'tv': 'Smart TVs'
+}
+
 const productType = window.location.search.toString().slice(1)
 const url = './database/' + productType + '.json'
 
@@ -11,7 +19,8 @@ const getJson = async (url) => {
 }
 
 
-const getData = () => {
+const setData = () => {
+    document.querySelector('.promo__title').textContent = ACCORDANCES[productType]
     getJson(url).then(data => {
         renderCards(data)
     })

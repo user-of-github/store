@@ -2,6 +2,7 @@
     {
         "title": "Asus TUF Gaming",
         "subtitle": "Outlast the competition.",
+        "description": "15.6'' 1920 x 1080 IPS, AMD Ryzen 5 / Ryzen 7 / Ryzen 9, RAM 8GB, SSD 512GB, NVIDIA GeForce GTX 1660TI",
         "options": [{
             "value": "Ryzen 5 4600H",
             "available": true,
@@ -10,14 +11,48 @@
         }, {
             "value": "Ryzen 7 4800H",
             "available": true,
-            "id": "8ds77788",
+            "id": "8ds557788",
             "price": 1269
         }, {
             "value": "Ryzen 9 4900H",
             "available": false,
-            "id": "8ds77788",
+            "id": "8dsttt88",
             "price": "undefined"
         }],
         "image": "./images/catalog/laptop/tufGamingA.png"
+    },
+    {
+        "title": "Apple MacBook Pro 13",
+        "subtitle": "All systems Pro.",
+        "description": "13.3'' 2560x1600 IPS, Apple M1 3200 МГц, RAM 8 GB, SSD 256GB / 512GB",
+        "options": [{
+            "value": "256GB",
+            "available": false,
+            "id": "trgrtgut",
+            "price": 1299
+        }, {
+            "value": "512GB",
+            "available": false,
+            "id": "9999000",
+            "price": 1499
+        }],
+        "image": "./images/catalog/laptop/macbookPro13.png"
+    },
+    {
+        "title": "HP Pavilion 14",
+        "subtitle": "Narrow. Refined. Amazing.",
+        "description": "14.0'' 1920x1080 IPS, Intel Core I3 1005G1 / Core I5 1035G1, RAM 8GB, SSD 256GB",
+        "options": [{
+            "value": "Core I3 1005G1",
+            "available": true,
+            "id": "hplololo",
+            "price": 585
+        }, {
+            "value": "I5 1035G1",
+            "available": true,
+            "id": "bydloblyat",
+            "price": 662
+        }],
+        "image": "./images/catalog/laptop/pavilion14.png"
     }
 ]
