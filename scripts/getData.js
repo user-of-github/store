@@ -12,6 +12,7 @@ const url = './database/' + productType + '.json'
 
 const getJson = async (url) => {
     const response = await fetch(url);
+    
     if (!response.ok)
         console.log(new Error(`Ошибка по адресу ${url}, статус ошибки ${response.status} !`))
     else

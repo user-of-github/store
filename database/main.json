@@ -25,8 +25,8 @@
         "type": "tv"
     },
     {
-        "title": "Smart TV",
-        "image": "./images/tv.png",
-        "type": "tv"
+        "title": "Smartwatch",
+        "image": "./images/watch.png",
+        "type": "watch"
     }
 ]

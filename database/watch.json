@@ -1,71 +1,100 @@
 [
     {
-        "title": "Google Pixel 3a",
-        "subtitle": "The phone that gets it down.",
+        "title": "Honor Watch ES",
+        "subtitle": "Style on the Move.",
+        "description": "1.64'' AMOLED Touch Display | Personal Virtual Coach | 24/7 Heart-Rate Monitor",
         "options": [{
-            "value": "64GB",
+            "value": "Meteorite Black",
             "available": true,
-            "id": "88801018",
-            "price": 429
+            "id": "gzi-honor-es2020",
+            "price": 94
         }, {
-            "value": "128GB",
-            "available": false,
-            "id": "8dsf888",
-            "price": 479
+            "value": "Coral Pink",
+            "available": true,
+            "id": "honores228",
+            "price": 94
         }],
-        "image": "./images/catalog/smartphone/pixel3a.png"
+        "image": "./images/catalog/watch/watchES.png"
     },
     {
-        "title": "Huawei P40 Pro",
-        "subtitle": "Visionary photography.",
+        "title": "Mi Smart Band 5",
+        "subtitle": "Go smart, live more.",
+        "description": "AMOLED 1.1'' 126x294, Touch Screen | Pedometer, Heart rate monitor",
         "options": [{
-            "value": "128GB",
-            "available": false,
-            "id": "gtgttg",
-            "price": 899
-        }, {
-            "value": "256GB",
+            "value": "Yellow",
             "available": true,
-            "id": "lllllll",
-            "price": 919
+            "id": "gzi-miband-5-2020",
+            "price": 39
+        }, {
+            "value": "Teal",
+            "available": true,
+            "id": "vaaomiband5",
+            "price": 39
+        }, {
+            "value": "Navy Blue",
+            "available": true,
+            "id": "lieeeimibadn",
+            "price": 39
+        }, {
+            "value": "Mint Green",
+            "available": true,
+            "id": "rfe589mi",
+            "price": 39
+        }, {
+            "value": "Orange",
+            "available": true,
+            "id": "pieeoMiBand-52020",
+            "price": 39
+        }, {
+            "value": "Black",
+            "available": true,
+            "id": "MiBand5-black",
+            "price": 39
         }],
-        "image": "./images/catalog/smartphone/p40pro.png"
+        "image": "./images/catalog/watch/miSmartBand5.png"
     },
     {
-        "title": "Apple iPhone 12",
-        "subtitle": "Blast past fast.",
+        "title": "Apple Watch SE",
+        "subtitle": "Heavy on features. Light on price.",
+        "description": "AMOLED 1.78'' 368x448, Touch screen | Pedometer, Heart rate monitor",
         "options": [{
-            "value": "64GB",
-            "available": true,
-            "id": "tujyuj",
-            "price": 799
-        }, {
-            "value": "128GB",
+            "value": "Gold Aluminum",
             "available": false,
-            "id": "ipjone228",
-            "price": 849
+            "id": "gzi-iwatch-se2020",
+            "price": 330
         }, {
-            "value": "256GB",
+            "value": "Silver Aluminum",
             "available": true,
-            "id": "iphonelol228",
-            "price": 949
+            "id": "watchIphone",
+            "price": 330
         }],
-        "image": "./images/catalog/smartphone/iphone12.png"
+        "image": "./images/catalog/watch/watchSE.png"
     },
     {
-        "title": "Honor 30",
-        "subtitle": "Inspired By Light, Designed For You.",
+        "title": "Huawei Watch GT 2 E",
+        "subtitle": "PLAY FOR 2 WEEKS.",
+        "description": "AMOLED 1.39'' 454x454, Touch screen | Pedometer, Heart rate monitor, working time: 2 weeks",
         "options": [{
-            "value": "128GB",
-            "available": true,
-            "id": "honorloh",
-            "price": 450
+            "value": "Icy White",
+            "available": false,
+            "id": "gzi-huaweiWathc-es2020",
+            "price": 129
         }, {
-            "value": "256GB",
+            "value": "Mint Green",
             "available": true,
-            "id": "userofhonor",
-            "price": 517
+            "id": "wathcHuaweiRu",
+            "price": 129
+        }, {
+            "value": "Lava Red",
+            "available": false,
+            "id": "gzi-red",
+            "price": 129
+        }, {
+            "value": "Graphite Black",
+            "available": true,
+            "id": "wathcBlacklol",
+            "price": 129
         }],
-        "image": "./images/catalog/smartphone/honor30.png"
+        "image": "./images/catalog/watch/watchGT2e.png"
     }
 ]

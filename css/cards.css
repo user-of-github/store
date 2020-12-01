@@ -124,6 +124,7 @@
     margin-top: 5px;
     margin-bottom: 15px;
     color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
 }
 
 .card__characteristics {
@@ -161,20 +162,29 @@
     -webkit-transition: 0.2s all;
     -o-transition: 0.2s all;
     transition: 0.2s all;
+    
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .card__choose-option {
     padding: 0.5rem 2rem;
     background: none;
     border: none;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
     border-radius: 20px;
     cursor: pointer;
     color: #585858;
     margin: auto;
-    margin: 0 5px;
 
     font-weight: 100;
+    margin: 5px auto;
+    flex-basis: 27%;
+    
+    text-align: center;
 }
 
 .card__choose-option[disabled] {
@@ -182,10 +192,6 @@
     cursor: default;
 }
 
-.card__choose-option:focus {
-    border: none;
-    outline: none;
-}
 
 .chosen {
     background-color: #FF4F3B;
@@ -199,53 +205,37 @@
 .card__purchase {
     width: 100%;
     margin-top: 5rem;
-}
-
-.card__purchase-btn {
-    min-width: 50%;
-    width: auto;
-    background: none;
-    border: 1px solid #FF4F3B;
-    color: #FF4F3B;
-
-    background-color: #fff;
-    color: #FF4F3B;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-
-    border-radius: 10px;
-
-    cursor: pointer;
-
-    font-weight: 500;
-
-    padding: 10px 0;
-
-    -webkit-transition: 0.2s all;
-    -o-transition: 0.2s all;
-    transition: 0.2s all;
-
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-
+    
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    
     -ms-align-items: center;
     align-items: center;
-    justify-content: center;
+    
+    justify-content: space-around;
+}
+
+.card__purchase-btn {
+    font-size: 1.6rem;
+}
+.card__price 
+{
+    font-size: 1.5rem;
     text-align: center;
-
-    margin: auto;
+    font-weight: 500;
+    color: #666;
 }
-
-.card__purchase-btn:hover {
-    background-color: #FF4F3B;
-    color: white;
-}
-
-.card__purchase-btn:active {
-    transform: scale(0.95);
+.card__purchase-btn[disabled] {
+    opacity: 0.5;
+    cursor: default;
 }
 
 @media (max-width: 992px) {
@@ -260,8 +250,6 @@
     }
 
     .card__purchase-btn {
-        flex-basis: 80%;
-        width: 80%;
-        margin: auto;
+        min-width: 50%;
     }
 }

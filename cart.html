@@ -4,38 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Electronic</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
+    <div class="container">
+        <header class="header">
+
             <div class="row">
                 <a href="index.html" class="header__logo-link">
                     <img src="images/favicon.svg" class="header__logo">
                     <h2 class="header__title">Electronic</h2>
                 </a>
-                <a href="cart.html" class="header__cart" id="header__cart">
+                <a href="cart.html" class="header__cart button" id="header__cart">
                     <img src="images/shopping-cart.svg" width="25px">
                 </a>
             </div>
-        </div>
-    </header>
-    <main class="main">
-        <div class="container">
+
+        </header>
+        <main class="main">
             <div class="wrapper" id="app">
+                <div class="cart__header">Cart</div>
+                <div class="cart__body">
+                    <div class="cart__items" id="cart__items">
+                        
+                    </div>
+                    <div class="cart__total" id="cart__total">
+                        <span class="cart__total-price" id="cart__total-price"></span>
+                        <button class="button cart__total-btn">Pay for it</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>
     <footer class="footer">
         <div class="container">
             © 2020 | All rights reserved
         </div>
     </footer>
 
-
+    <script src="scripts/cart.js"></script>
 </body>
 
 </html>

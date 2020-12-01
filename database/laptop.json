@@ -27,7 +27,7 @@
         "description": "13.3'' 2560x1600 IPS, Apple M1 3200 МГц, RAM 8 GB, SSD 256GB / 512GB",
         "options": [{
             "value": "256GB",
-            "available": false,
+            "available": true,
             "id": "trgrtgut",
             "price": 1299
         }, {

@@ -36,7 +36,7 @@
     {
         "title": "Honor 30",
         "subtitle": "Inspired By Light, Designed For You.",
-        "description": "Android, 6.53'' OLED (1080x2400), HiSilicon Kirin 985, RAM 8 GB, флэш-память 128GB / 256GB, nano-SD, camera 40 MP, 4000 mAh, 2 SIM",
+        "description": "Android, 6.53'' OLED (1080x2400), HiSilicon Kirin 985, RAM 8 GB, ROM 128GB / 256GB, nano-SD, camera 40 MP, 4000 mAh, 2 SIM",
         "options": [{
             "value": "128GB",
             "available": true,
@@ -49,5 +49,66 @@
             "price": 517
         }],
         "image": "./images/catalog/smartphone/honor30.png"
+    },
+    {
+        "title": "Huawei Nova 5T",
+        "subtitle": "Inspire Your Moment.",
+        "description": "Android, 6.26'' IPS (1080x2340), HiSilicon Kirin 980, RAM 6GB / 8GB, ROM 128GB, camera 48 Мп, 3750 mAh, 2 SIM",
+        "options": [{
+            "value": "6GB",
+            "available": true,
+            "id": "nova5t20201120",
+            "price": 290
+        }, {
+            "value": "8GB",
+            "available": false,
+            "id": "nova5t-1-284",
+            "price": 371
+        }],
+        "image": "./images/catalog/smartphone/nova5t.png"
+    },
+    {
+        "title": "Huawei P40 Lite",
+        "subtitle": "Adjust to brightness.",
+        "description": "Android, 6.4'' IPS (1080x2310), HiSilicon Kirin 810, RAM 6GB, ROM 128ROM, Nano-SD, camera 48 Мп, 4200 mAh, 2 SIM, Color: Green / Pink / Black",
+        "options": [{
+            "value": "Pink Sakura",
+            "available": true,
+            "id": "p40lite20201120",
+            "price": 234
+        }, {
+            "value": "Midnight Black",
+            "available": false,
+            "id": "p40lite1120-1-284",
+            "price": 234
+        }, {
+            "value": "Bright Green",
+            "available": true,
+            "id": "p40lite2020-1-284",
+            "price": 219
+        }],
+        "image": "./images/catalog/smartphone/p40lite.png"
+    },
+    {
+        "title": "Huawei P20",
+        "subtitle": "Stylish Design, Powerful Hardware.",
+        "description": "Android, 5.8'' IPS (1080x2244), HiSilicon Kirin 970, RAM 6GB, ROM 64GB, camera 12 MP, 3400 mAh, 2 SIM",
+        "options": [{
+            "value": "Midnight Blue",
+            "available": false,
+            "id": "p20-120",
+            "price": 300
+        }, {
+            "value": "Pink",
+            "available": false,
+            "id": "p20-1-284",
+            "price": 300
+        }, {
+            "value": "Black",
+            "available": true,
+            "id": "p20-1-284",
+            "price": 300
+        }],
+        "image": "./images/catalog/smartphone/p20.png"
     }
 ]

@@ -1,14 +1,15 @@
 /* base application settings */
 * {
-    font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #FBFBFB;
     padding-top: 20px;
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #f5f5f5 100%);
 }
 
 html {
@@ -19,6 +20,46 @@ html {
 
 button:focus {
     outline: none;
+}
+
+.button {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+    background: none;
+    border: none;
+    color: #FF4F3B;
+
+    background-color: #fff;
+    color: #FF4F3B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 7px;
+
+    font-weight: 500;
+
+    -webkit-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FF4F3B;
+    color: white;
+}
+
+.button:active {
+    transform: scale(0.95);
 }
 
 .container {
@@ -38,7 +79,6 @@ button:focus {
     flex-direction: column;
 
     justify-content: center;
-
     -ms-align-items: center;
     align-items: center;
 }
@@ -65,7 +105,7 @@ button:focus {
 }
 
 
-/* styles for all the application*/
+/* styles for the application UI components */
 
 .header {
     width: 100%;
@@ -88,11 +128,11 @@ button:focus {
     flex-direction: row;
 
     justify-content: center;
-
     -ms-align-items: center;
     align-items: center;
 
     text-align: center;
+
     text-decoration: none;
 }
 
@@ -110,21 +150,22 @@ button:focus {
 }
 
 .header__cart {
-    cursor: pointer;
     text-decoration: none;
     text-transform: none;
     text-align: center;
 
     margin-left: auto;
+
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     padding: 10px;
     border-radius: 7px;
-
     background-color: #fff;
 
     -webkit-transition: 0.2s all;
     -o-transition: 0.2s all;
     transition: 0.2s all;
+
+    cursor: pointer;
 }
 
 .header__cart:hover {
@@ -138,23 +179,23 @@ button:focus {
 .main {
     width: 100%;
     margin-top: 30px;
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #f5f5f5 100%)
+    padding-bottom: 25px;
 }
 
 .promo {
     width: 100%;
-    background-color: #FF4F3B;
-
     padding: 53px 67px;
-    border-radius: 10px; 
+
+    border-radius: 10px;
     background-image: url(../images/bgc.png);
     background-position: center right 50px;
     background-repeat: no-repeat;
-
-    -webkit-background-size: 275px;
-    background-size: 275px;
+    background-color: #FF4F3B;
+    -webkit-background-size: 300px;
+    background-size: 300px;
 
     color: white;
+    box-shadow: 0 6px 24px 0 rgba(67, 86, 100, .2);
 }
 
 .promo__text {
@@ -166,8 +207,8 @@ button:focus {
     margin-bottom: 20px;
 
     font-weight: 500;
-    font-size: 39px;
-    line-height: 46px;
+    font-size: 3.9rem;
+    line-height: 4.6rem;
 }
 
 .promo__description {
@@ -198,37 +239,21 @@ button:focus {
     margin-right: auto;
 }
 
-.main__back{
-    cursor: pointer;
+.main__back {
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 300;
     text-decoration: none;
     text-transform: none;
-    text-align: center;
-
-    margin-right: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    padding: 10px;
-    border: none;
-    border-radius: 7px;
-
-    background-color: #fff;
-
-    -webkit-transition: 0.2s all;
-    -o-transition: 0.2s all;
-    transition: 0.2s all;
-    
-    font-size: 1.8rem;
 }
 
-.main__back:hover {
-    background-color: #FF4F3B;
-    color: white;
-}
 .main__back:active {
     transform: scale(0.95);
 }
+
 .wrapper {
     width: 100%;
-    
+
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -277,7 +302,8 @@ button:focus {
 img {
     fill: red;
 }
-.footer .header__title{
+
+.footer .header__title {
     color: white;
 }
 
@@ -298,6 +324,14 @@ img {
 @media (max-width: 1200px) {
     .container {
         max-width: 940px;
+    }
+
+    .promo__title {
+        font-size: 3.2rem;
+    }
+
+    .promo__description {
+        font-size: 1.8rem;
     }
 }
 
@@ -322,7 +356,7 @@ img {
     }
 
     .promo__description {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -342,14 +376,9 @@ img {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 578px) {
     .container {
         max-width: 90%;
-    }
-
-    .promo {
-        background-size: 250px;
-        background-position: right 10px center;
     }
 
     .promo {
@@ -359,6 +388,14 @@ img {
     }
 
     .promo__text {
-        max-width: 250px;
+        max-width: 220px;
+    }
+
+    .promo__title {
+        font-size: 2.5rem;
+    }
+
+    .promo__description {
+        font-size: 1.2rem;
     }
 }
