@@ -1,3 +1,5 @@
+console.info('02 November 2020 - 01 December 2020')
+
 const URL = 'database/main.json'
 
 const getJson = async (url) => {

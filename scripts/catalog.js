@@ -1,7 +1,7 @@
 const CartArray = JSON.parse(localStorage.getItem('store-card')) || []
 
 //console.log(CartArray)
-console.info('02 November 2020 - 01 December 2020')
+
 
 const initializeChooseOptionButtons = event => {
     const objectClicked = event.target;
@@ -37,10 +37,10 @@ const initializeBuyButtons = event => {
                 counter: 1
             }
             if (CartArray.findIndex(el => el.id === addedObject.id) !== -1)
-                CartArray[CartArray.findIndex(el => el.id === addedObject.id)].counter ++;
+                CartArray[CartArray.findIndex(el => el.id === addedObject.id)].counter++;
             else
                 CartArray.push(addedObject)
-            
+
             localStorage.setItem('store-card', JSON.stringify(CartArray))
         }
     }

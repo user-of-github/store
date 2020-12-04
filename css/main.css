@@ -168,6 +168,12 @@ button:focus {
     cursor: pointer;
 }
 
+.header__cart-name
+{
+    font-size: 2rem;
+    margin-left: 5px;
+    font-weight: 400;
+}
 .header__cart:hover {
     background-color: #FF4F3B;
 }
@@ -297,16 +303,49 @@ button:focus {
     align-items: center;
 
     text-align: center;
+    
+    font-weight: 100;
 }
 
-img {
-    fill: red;
+.footer .row
+{
+    justify-content: flex-start;
+    width: 100%;
+    flex-basis: 100%;
 }
+
 
 .footer .header__title {
     color: white;
+    font-weight: 100;
+    
+    margin-right: auto;
 }
 
+.footer .header__logo
+{
+    margin-right: 0;
+}
+.footer__links
+{
+    margin-left: 30px;
+}
+
+.footer__link
+{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: none;
+    text-decoration: none;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.footer__link:last-child
+{
+    margin-right: 0;
+}
 /* adaptive */
 
 @media (max-width: 1400px) {
