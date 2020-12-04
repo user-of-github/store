@@ -424,6 +424,7 @@ button:focus {
         padding: 20px 30px;
         -webkit-background-size: 150px;
         background-size: 150px;
+        background-image: none;
     }
 
     .promo__text {
