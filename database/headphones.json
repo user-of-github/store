@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Mi True Wireless Earbuds Basic 2",
+        "subtitle": "Pick up, use and listen freely.",
+        "description": "Wireless headphones with microphone, in-channel, portable, Bluetooth 5.0, 20-20000 Hz, working time 4 hours",
+        "options": [{
+            "value": "Black",
+            "available": true,
+            "id": "miTrueBasic2-2020-black",
+            "price": 19
+        }, {
+            "value": "White",
+            "available": false,
+            "id": "miTrueBasic2-white228",
+            "price": 19
+        }],
+        "image": "./images/catalog/headphones/miTrueWirelessBasic2.png"
+    },
+    {
+        "title": "AirPods Pro",
+        "subtitle": "Arrival of the fittest.",
+        "description": "Wireless headphones with microphone, in-channel, portable, Bluetooth 5.0, fast charging, working time 5 hours",
+        "options": [{
+            "value": "White",
+            "available": true,
+            "id": "airpodsPro228",
+            "price": 249
+        }],
+        "image": "./images/catalog/headphones/airpodsPro.png"
+    },
+    {
+        "title": "AirPods Max",
+        "subtitle": "A radically original composition.",
+        "description": "Wireless headphones with microphone, monitor (covering), portable, Bluetooth 5.0, rotary cups, fast charging, working time 20 h",
+        "options": [{
+            "value": "Space Gray",
+            "available": true,
+            "id": "airpodsMaxSpaceGray",
+            "price": 549
+        }, {
+            "value": "Silver",
+            "available": true,
+            "id": "airpodsMaxSilver228",
+            "price": 549
+        }, {
+            "value": "Green",
+            "available": true,
+            "id": "airpodsMaxGreen2230",
+            "price": 549
+        }, {
+            "value": "Sky Blue",
+            "available": false,
+            "id": "airpodsMaxSkyBlue229",
+            "price": 549
+        }, {
+            "value": "Pink",
+            "available": true,
+            "id": "airpodsMaxPink228",
+            "price": 549
+        }],
+        "image": "./images/catalog/headphones/airpodsMax.png"
+    }
+]

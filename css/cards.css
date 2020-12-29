@@ -114,13 +114,13 @@
     padding: 5px;
 }
 .card__title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .card__subtitle {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 5px;
     margin-bottom: 15px;
     color: rgba(0, 0, 0, 0.5);
@@ -129,7 +129,7 @@
 
 .card__characteristics {
     color: #8c8c8c;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: left;
     line-height: 2.1rem;
 }

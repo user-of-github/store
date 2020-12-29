@@ -12,7 +12,7 @@
     {
         "title": "Headphones",
         "image": "./images/headphone.png",
-        "type": "headphone"
+        "type": "headphones"
     },
     {
         "title": "Smartwatch",
@@ -23,10 +23,5 @@
         "title": "Smart TV",
         "image": "./images/tv.png",
         "type": "tv"
-    },
-    {
-        "title": "Smartwatch",
-        "image": "./images/watch.png",
-        "type": "watch"
     }
 ]

@@ -3,7 +3,7 @@ const CartArray = JSON.parse(localStorage.getItem('store-card')) || []
 //console.log(CartArray)
 
 
-const initializeChooseOptionButtons = event => {
+const InitializeChooseOptionButtons = event => {
     const objectClicked = event.target;
 
     if (objectClicked.classList.contains('card__choose-option')) {
@@ -16,7 +16,7 @@ const initializeChooseOptionButtons = event => {
     }
 }
 
-const initializeBuyButtons = event => {
+const InitializeBuyButtons = event => {
     const objectClicked = event.target
 
     if (objectClicked.classList.contains('card__purchase-btn')) {
@@ -46,25 +46,43 @@ const initializeBuyButtons = event => {
     }
 }
 
-const init = () => {
+const EqualHeights = () => {
+    let maxHeight = 0
+
+    Array.from(document.querySelectorAll('.card')).forEach(card => {
+        if (maxHeight < card.offsetHeight)
+            maxHeight = card.offsetHeight
+    })
+
+    Array.from(document.querySelectorAll('.card')).forEach(card => {
+        card.style.height = maxHeight + 'px'
+    })
+}
+
+const Init = () => {
     document.title += ('. ' + productType.slice(0, 1).toUpperCase() + productType.slice(1))
 
     const Application = document.getElementById('app')
 
     setData()
 
-    Application.addEventListener('click', initializeChooseOptionButtons)
-    Application.addEventListener('click', initializeBuyButtons)
+    Application.addEventListener('click', InitializeChooseOptionButtons)
+    Application.addEventListener('click', InitializeBuyButtons)
 
     let timer = window.setTimeout(check = () => {
         if (Array.from(Application.querySelectorAll('.card')).length === 0)
             timer = setTimeout(check, 1)
         else {
             initAnimations()
+            EqualHeights()
             window.clearTimeout(timer)
         }
     }, 1)
+
+    document.querySelectorAll('.card').forEach(card => {
+        console.log(card.offsetHeight)
+    })
 }
 
 
-init()
+Init()

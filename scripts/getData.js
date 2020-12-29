@@ -1,7 +1,7 @@
 const ACCORDANCES = {
     'smartphone': 'Smartphones',
     'laptop': 'Laptops',
-    'headphone': 'Headphones',
+    'headphones': 'Headphones',
     'watch': 'Smartwatches',
     'tv': 'Smart TVs'
 }
